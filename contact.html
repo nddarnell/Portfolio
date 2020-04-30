@@ -17,9 +17,6 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item active">
@@ -28,28 +25,31 @@
             <li class="nav-item active">
               <a class="nav-link" href="./Assets/Nathaniel_Darnell_Resume.pdf" target="_blank">Resume</a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+            </li>
           </ul>
         </div>
     </nav>
 
     <form class="container">
-      <div class="form-row text-center mt-5">
+      <div class="form-row text-center mt-5" method="post" action="contact-form-handler.php">
         <div class="col">
           <label for="exampleFormControlInput1">First Name</label>
-          <input type="text" class="form-control" placeholder="First Name">
+          <input name="firstName" type="text" class="form-control" placeholder="First Name">
         </div>
         <div class="col">
           <label for="exampleFormControlInput2">Last Name</label>
-          <input type="text" class="form-control" placeholder="Last Name">
+          <input name="lastName" type="text" class="form-control" placeholder="Last Name">
         </div>
       </div>
       <div class="form-group text-center mt-2">
         <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
       <div class="form-group text-center mt-2">
         <label for="exampleFormControlInput1">Phone Number</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(800)-555-5555">
+        <input name="phone" type="phone" class="form-control" id="exampleFormControlInput1" placeholder="(800)-555-5555">
       </div>
       <div class="form-group text-center mt-2">
         <label for="exampleFormControlSelect1">Preferred Method of Contact</label>
@@ -61,10 +61,10 @@
       </div>
       <div class="form-group text-center mt-2">
         <label for="exampleFormControlTextarea1">Additional Comments</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <div class="text-center">
-        <button type="submit" class="btn btn-primary mb-2 text-center">Submit</button>
+        <button type="submit" class="btn btn-primary mb-2 text-center form-control submit">Submit</button>
       </div>
     </form>
 
