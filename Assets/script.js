@@ -1,5 +1,5 @@
 function scratchProject(){
-    window.open("https://scratch.mit.edu/projects/365628026")
+    window.open("https://burger-list-plus.herokuapp.com/")
 }
 function hungryProject(){
     window.open("https://nddarnell.github.io/Hungry_or_Bored-Project-1/")
