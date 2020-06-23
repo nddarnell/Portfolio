@@ -1,4 +1,4 @@
-function scratchProject(){
+function burgerProject(){
     window.open("https://burger-list-plus.herokuapp.com/")
 }
 function hungryProject(){
@@ -15,4 +15,7 @@ function linkedIn(){
 }
 function github(){
     window.open("https://github.com/nddarnell")
+}
+function project2(){
+    window.open("https://rotten-potatoes-vm3.herokuapp.com/login")
 }
