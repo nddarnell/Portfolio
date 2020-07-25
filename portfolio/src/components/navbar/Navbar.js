@@ -19,9 +19,6 @@ function Navbar(){
                             <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
                         <li className="nav-item active">
-                            <Link to="../../../Nathaniel_Darnell_Resume.pdf" className="nav-link">Resume</Link>
-                        </li>
-                        <li className="nav-item active">
                             <Link to="/" className="nav-link">About</Link>
                         </li>
                     </ul>
