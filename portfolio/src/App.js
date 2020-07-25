@@ -10,9 +10,16 @@ import PageNotFound from "./components/pages/PageNotFound";
 
 function App() {
   return (
-    <>
-
-    </>
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route exact path ="/" component={Home}/>
+        <Route exact path ="/about" component={Home}/>
+        <Route exact path ="/projects" component={Projects}/>
+        <Route exact path ="/contact" component={ContactForm}/>
+        <Route path ="*" component={PageNotFound}/>
+      </Switch>
+    </Router>
   );
 }
 
