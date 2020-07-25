@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css"
+import profilePic from "../../assets/Images/profilepic.png" // this works for images doe this.
 
 function linkedIn(){
     window.open("https://www.linkedin.com/in/nathan-darnell-408169a8/")
@@ -25,7 +26,7 @@ function About() {
                         </div>
                     </div>
                     <div className="col-sm-4 mt-5 text-center">
-                        <img src="../../assets/Images/profilepic.png" className="profpic img-fluid rounded-circle" alt="..."/>
+                        <img src={profilePic} className="profpic img-fluid rounded-circle" alt="..."/>
                     </div>
                 </div>
                 <div className="row">
