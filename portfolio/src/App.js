@@ -16,6 +16,7 @@ function App() {
         <Route exact path ="/about" component={Home}/>
         <Route exact path ="/projects" component={Projects}/>
         <Route exact path ="/contact" component={ContactForm}/>
+        {/* <Route exact path ="/assets/Nathaniel_Darnell_Resume.pdf" component={Resume}/> */}
         <Route path ="*" component={PageNotFound}/>
       </Switch>
     </Router>

@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css"
-import profilePic from "../../assets/Images/profilepic.png" // this works for images doe this.
+import profilePic from "../../assets/Images/profilepic.png"
+import linkedInPic from "../../assets/Images/in_image2.png"
+import githubPic from "../../assets/Images/GitHub-Mark.png"
+import resumePic from "../../assets/Images/resumepic.jpg"
+
 
 function linkedIn(){
     window.open("https://www.linkedin.com/in/nathan-darnell-408169a8/")
@@ -32,10 +36,10 @@ function About() {
                 <div className="row">
                     <div className="col-sm-8 mt-5">
                         <div className="text-center">
-                            <img className="icons img-fluid rounded-circle" src="../../assets/Images/in_image2.png" alt="..." onClick={linkedIn}/>
-                            <img className="icons img-fluid rounded-circle" src="../../assets/Images/GitHub-Mark.png" alt="..." onClick={github}/>
+                            <img className="icons img-fluid rounded-circle" src={linkedInPic} alt="..." onClick={linkedIn}/>
+                            <img className="icons img-fluid rounded-circle" src={githubPic} alt="..." onClick={github}/>
                             <a href="../../assets/Nathaniel_Darnell_Resume.pdf" target="_blank">
-                                <img className="icons img-fluid rounded-circle" src="../../assets/Images/resumepic.jpg" alt="..."/>
+                                <img className="icons img-fluid rounded-circle" src={resumePic} alt="..."/>
                             </a>
                         </div>
                     </div>
