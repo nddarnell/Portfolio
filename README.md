@@ -18,7 +18,7 @@ This is my current portfolio where I will house my favorite projects, resume, an
 
 ## Application
 
-https://nddarnell.github.io/Week2-Week8-UpdatedProfile/
+https://nddarnell.github.io/Profile/
 
 ## Usage
 
